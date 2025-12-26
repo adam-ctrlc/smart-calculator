@@ -38,7 +38,7 @@ export default function Home() {
                 rgba(0, 0, 0, 0.4) 0%,
                 rgba(0, 0, 0, 0.8) 100%
               ),
-              url('https://lh3.googleusercontent.com/aida-public/AB6AXuAuc2wYHW-LyFQDd1G5b4Bn9dta5dTEjpQZRgD_TYTVKE-KV-9atn8tt42cnRhYYKTqM7_bwzfTAylqqRlK6kZ7JKQdwBzMd_hHIkVi6xWdLWYK4HNwCpQjtVy3jO5MmyMZjf0ZE5zgkJAZzHPHZnYBRAtYxHIWr9Ox4qAA3O-KgayT59LGBonRu5_09adk8QGidN0XxLPR2XuoDCFZvU12WdDsRQMbPCVjyM1_Yaep2Il0_BR8ouleoNN2jEDlsIbtz6WLrQYEYB0');
+              url('/hero.png');
           "
         >
           <div class="absolute inset-0 bg-primary/20 mix-blend-overlay"></div>
