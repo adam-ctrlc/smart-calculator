@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #136dec;
+  --color-surface: #1a202c;
+  --color-border-subtle: #2a3441;
+  --color-background: #101822; /* deep navy/slate */
+  --font-display: "Inter", "sans-serif";
+  --radius-default: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+}
+
+@import "katex/dist/katex.min.css";
+
+html,
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: white;
+  font-family: var(--font-display);
+  overflow-x: hidden;
+  max-width: 100vw;
+  color-scheme: dark;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
