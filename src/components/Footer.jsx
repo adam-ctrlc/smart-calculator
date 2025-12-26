@@ -17,12 +17,27 @@ export default function Footer() {
           >
             Terms & Conditions
           </A>
-          <a
+          <A
             class="text-sm text-gray-400 hover:text-primary transition-colors"
-            href="mailto:contact@smartcalc.app"
+            href="https://github.com/adam-ctrlc/smart-calculator"
+            target="_blank"
           >
-            Feedback
-          </a>
+            GitHub
+          </A>
+          <A
+            class="text-sm text-gray-400 hover:text-primary transition-colors"
+            href="https://github.com/adam-ctrlc/smart-calculator/issues"
+            target="_blank"
+          >
+            Issues
+          </A>
+          <A
+            class="text-sm text-gray-400 hover:text-primary transition-colors"
+            href="https://github.com/adam-ctrlc/smart-calculator/pulls"
+            target="_blank"
+          >
+            Contribute
+          </A>
         </div>
       </div>
     </footer>
